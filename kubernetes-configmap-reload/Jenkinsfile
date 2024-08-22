@@ -32,7 +32,7 @@ pipeline {
 			}
     		steps {
         		dir("${params.AppName}") {
-				sh 'echo "Helloworld"'
+				sh 'echo "Helloword - git sample test '
         			sh 'mvn clean package'
         		}
     		}
